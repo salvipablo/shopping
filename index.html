@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <title>Shopping</title>
+</head>
+<body>
+
+  <div class="mainContainer">
+    <header class="header">
+      <h1 class="mainTitle">Compras</h1>
+    </header>
+
+    <section id="newPurchaseSection" class="newPurchaseSection">
+      <button id="btnNewPurchase" class="btnNewPurchase">Nueva compra</button>
+
+      <div id="areaCbs" class="cbs no-visible">
+        <select name="categories" id="cbCategories" class="cbCategories">
+          <option value="perfumeria" selected>Perfumeria</option>
+          <option value="limpieza">Limpieza</option>
+          <option value="almacen">Almacen</option>
+          <option value="lacteos">Lacteos</option>
+          <option value="bebidas">Bebidas</option>
+          <option value="congelados">Congelados</option>
+          <option value="panaderia">Penaderia</option>
+          <option value="verduleria">Verduleria</option>
+          <option value="bazar">Bazar</option>
+        </select>
+
+        <select name="products" id="cbProducts" class="cbProducts">
+        </select>
+      </div>
+    </section>
+
+    <section class="sectionCard" id="sectionCard">
+    </section>
+
+    <div class="btns">
+      <button class="btnAdd" id="btnAdd">Agregar Producto</button>
+      <button class="btnShop" id="btnShop">Realizar compra</button>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

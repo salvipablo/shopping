@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0 1em;
+}
+
+.mainContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 60px 1fr 1fr 1fr;
+}
+
+/* HEADER */
+.header {
+  align-self: center;
+}
+
+.mainTitle {
+  text-align: center;
+}
+/* HEADER */
+
+
+/* SECTION NUEVA COMPRA */
+.btnNewPurchase {
+  width: 100%;
+  padding: 0.8em;
+}
+
+.no-visible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.cbCategories, .cbProducts {
+  width: 100%;
+  padding: 1em 0;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.cbProducts {
+  margin-top: 1em;
+}
+/* SECTION NUEVA COMPRA */
+
+
+/* SECTION CARD */
+.sectionCard {
+  width: 100%;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: solid 1px #000000;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.cntImgCard {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.8em;
+}
+
+.imgCard {
+  width: 190px;
+}
+
+.cardTitle {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.description, .cntquantity, .trademark, .cardTitle {
+  margin-bottom: 0.5em;
+}
+/* SECTION CARD */
+
+
+/* SECTION BOTONES */
+.btns {
+  align-self: end;
+  width: 100%;  
+}
+
+.btnAdd, .btnShop {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding: 1em 0;
+
+  background: transparent;
+  border: solid 1px #000000;
+  border-radius: 10px;
+}
+
+.btnAdd {
+  margin-bottom: 0.5em;
+  background-color: #ffc107;
+  color: #000000;
+}
+
+.btnShop {
+  background-color: #198754 ;
+  color: #ffffff;
+}
+/* SECTION BOTONES */
+
+
+/* COMPRANDO */
+.cntProduct {
+  display: flex;
+  align-items: center;
+  border: solid 1px #000000;
+  padding: 0.5em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  border-bottom: solid 5px #dc3545;
+}
+
+.cntProductSelect {
+  border-bottom: solid 5px #258522;
+}
+
+.checkProduct{
+  width: 50px;
+  height: 30px;
+}
+
+.nameMarkProduct {
+  text-transform: uppercase;
+}
+
+.cntProduct-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.quantityProduct {
+  font-weight: bold;
+  font-style: italic;
+}
+/* COMPRANDO */
