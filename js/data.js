@@ -56,6 +56,27 @@ const products = [
     quantity: 0
   },
   {
+    name: "Lavandina",
+    description: "Lavandina",
+    trademark: "Ayudin",
+    type: "limpieza",
+    quantity: 0
+  },
+  {
+    name: "Papel Higenico",
+    description: "Premiun",
+    trademark: "Higienol",
+    type: "limpieza",
+    quantity: 0
+  },
+  {
+    name: "Servilletas",
+    description: "Rojo",
+    trademark: "Sussex",
+    type: "limpieza",
+    quantity: 0
+  },
+  {
     name: "Vinagre",
     description: "De Alcohol",
     trademark: "Menoyo",
@@ -87,6 +108,48 @@ const products = [
     name: "Harina leudante",
     description: "Ultra refinada",
     trademark: "Pureza",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Cafe",
+    description: "Maquina",
+    trademark: "La Virginia",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Azucar",
+    description: "Fina",
+    trademark: "Ledesma",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Calditos",
+    description: "Verdura",
+    trademark: "Knorr",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Mostachol",
+    description: "Fideo",
+    trademark: "Matarazzo",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Cabello de angel",
+    description: "Fideo",
+    trademark: "Knorr",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Lata de atun",
+    description: "Pescado",
+    trademark: "Carrefour",
     type: "almacen",
     quantity: 0
   },
