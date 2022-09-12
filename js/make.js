@@ -1,6 +1,6 @@
 const cntProducts = document.getElementById('cntProducts');
 
-const productsToBuy = JSON.parse(sessionStorage.getItem('data'));
+const productsToBuy = JSON.parse(localStorage.getItem('data'));
 
 function updateProducts() {
   var chkProducts = document.getElementsByClassName("checkProduct");

@@ -120,6 +120,6 @@ btnShop.addEventListener('click', () => {
   }
 
   stringSave = stringSave.substring(0, stringSave.length-1) + "]";
-  sessionStorage.setItem('data', stringSave);
+  localStorage.setItem('data', stringSave);
   window.location.href = "makepurchase.html";
 });
