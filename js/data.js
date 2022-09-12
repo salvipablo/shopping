@@ -126,21 +126,28 @@ const products = [
     quantity: 0
   },
   {
-    name: "Calditos",
+    name: "Calditos de Verdura",
     description: "Verdura",
     trademark: "Knorr",
     type: "almacen",
     quantity: 0
   },
   {
-    name: "Mostachol",
+    name: "Calditos de Gallina",
+    description: "Verdura",
+    trademark: "Knorr",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Fideos Mostachol",
     description: "Fideo",
     trademark: "Matarazzo",
     type: "almacen",
     quantity: 0
   },
   {
-    name: "Cabello de angel",
+    name: "Fideos Cabello de angel",
     description: "Fideo",
     trademark: "Knorr",
     type: "almacen",
@@ -154,16 +161,114 @@ const products = [
     quantity: 0
   },
   {
-    name: "Leche 0",
+    name: "Huevos",
+    description: "Blancos",
+    trademark: "Carrefour",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Bizcochuelo",
+    description: "Vainilla",
+    trademark: "Exquisita",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Bizcochuelo",
+    description: "Vainilla",
+    trademark: "Exquisita",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Galletitas Chocolinas",
+    description: "Original",
+    trademark: "Bagley",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Cacao en polvo",
+    description: "Nesquik",
+    trademark: "Nestle",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Galleguitas dulces",
+    description: "Clasicas",
+    trademark: "Galleguitas",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Sorrentinos",
+    description: "Ricotta",
+    trademark: "La italiana",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Edulcorantes",
+    description: "Stevia",
+    trademark: "Hileret",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Leche 0%",
     description: "0%",
     trademark: "La serenisima",
     type: "lacteos",
     quantity: 0
   },
   {
-    name: "Leche 1",
+    name: "Leche 1%",
     description: "1%",
     trademark: "La serenisima",
+    type: "lacteos",
+    quantity: 0
+  },
+  {
+    name: "Queso crema",
+    description: "Clasico",
+    trademark: "Casancrem",
+    type: "lacteos",
+    quantity: 0
+  },
+  {
+    name: "Dulce de leche_C",
+    description: "Clasico",
+    trademark: "Milkaut",
+    type: "lacteos",
+    quantity: 0
+  },
+  {
+    name: "Dulce de leche_R",
+    description: "Repostero",
+    trademark: "Milkaut",
+    type: "lacteos",
+    quantity: 0
+  },
+  {
+    name: "Yogurt de Frutilla",
+    description: "Clasico",
+    trademark: "La Serenisima",
+    type: "lacteos",
+    quantity: 0
+  },
+  {
+    name: "Crema de leche",
+    description: "Cocinar",
+    trademark: "La Serenisima",
+    type: "lacteos",
+    quantity: 0
+  },
+  {
+    name: "Crema de leche",
+    description: "Batir",
+    trademark: "La Serenisima",
     type: "lacteos",
     quantity: 0
   },
@@ -220,6 +325,13 @@ const products = [
     name: "Banana",
     description: "Natural",
     trademark: "Huella",
+    type: "verduleria",
+    quantity: 0
+  },
+  {
+    name: "Manzana",
+    description: "Roja",
+    trademark: "Carrefour",
     type: "verduleria",
     quantity: 0
   },
