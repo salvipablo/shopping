@@ -175,13 +175,6 @@ const products = [
     quantity: 0
   },
   {
-    name: "Bizcochuelo",
-    description: "Vainilla",
-    trademark: "Exquisita",
-    type: "almacen",
-    quantity: 0
-  },
-  {
     name: "Galletitas Chocolinas",
     description: "Original",
     trademark: "Bagley",
