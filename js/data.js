@@ -252,14 +252,14 @@ const products = [
     quantity: 0
   },
   {
-    name: "Crema de leche",
+    name: "Crema de leche_C",
     description: "Cocinar",
     trademark: "La Serenisima",
     type: "lacteos",
     quantity: 0
   },
   {
-    name: "Crema de leche",
+    name: "Crema de leche_B",
     description: "Batir",
     trademark: "La Serenisima",
     type: "lacteos",
