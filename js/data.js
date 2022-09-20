@@ -77,6 +77,13 @@ const products = [
     quantity: 0
   },
   {
+    name: "Jabon Liquido",
+    description: "Clasico",
+    trademark: "Ariel",
+    type: "limpieza",
+    quantity: 0
+  },
+  {
     name: "Vinagre",
     description: "De Alcohol",
     trademark: "Menoyo",
