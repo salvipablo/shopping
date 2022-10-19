@@ -392,13 +392,6 @@ const products = [
     quantity: 0
   },
   {
-    name: "Pan",
-    description: "blanco Artesano",
-    trademark: "Bimbo",
-    type: "panaderia",
-    quantity: 0
-  },
-  {
     name: "Pan Hamburgesa",
     description: "Artesano",
     trademark: "Bimbo",
@@ -406,14 +399,14 @@ const products = [
     quantity: 0
   },
   {
-    name: "Pan Blanco",
+    name: "Pan Blanco A",
     description: "Artesano",
     trademark: "Bimbo",
     type: "panaderia",
     quantity: 0
   },
   {
-    name: "Pan Blanco",
+    name: "Pan Blanco L",
     description: "Lacteado",
     trademark: "Fargo",
     type: "panaderia",
