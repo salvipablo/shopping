@@ -28,6 +28,13 @@ const products = [
     quantity: 0
   },
   {
+    name: "Perfume en crema",
+    description: "Odorono",
+    trademark: "Rexona",
+    type: "perfumeria",
+    quantity: 0
+  },
+  {
     name: "Limpiador Piso",
     description: "Liquido pisos aires de primavera",
     trademark: "Procenex",
@@ -80,6 +87,20 @@ const products = [
     name: "Jabon Liquido",
     description: "Clasico",
     trademark: "Ariel",
+    type: "limpieza",
+    quantity: 0
+  },
+  {
+    name: "Pastillas Mosquitos",
+    description: "Clasico",
+    trademark: "Raid",
+    type: "limpieza",
+    quantity: 0
+  },
+  {
+    name: "Desodorante ambiente Limon",
+    description: "Desinfectante",
+    trademark: "Lysoform",
     type: "limpieza",
     quantity: 0
   },
@@ -217,6 +238,41 @@ const products = [
     quantity: 0
   },
   {
+    name: "Te Negro",
+    description: "Clasico",
+    trademark: "Green Hills",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Te con sabor",
+    description: "Mandarina, naranja y pomelo ",
+    trademark: "La Virginia",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Mostaza",
+    description: "Liviana y sabrosa",
+    trademark: "Natura",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Mayonesa",
+    description: "Liviana y sabrosa",
+    trademark: "Natura",
+    type: "almacen",
+    quantity: 0
+  },
+  {
+    name: "Ketchup",
+    description: "EST.1913",
+    trademark: "Hellmanns",
+    type: "almacen",
+    quantity: 0
+  },
+  {
     name: "Leche 0%",
     description: "0%",
     trademark: "La serenisima",
@@ -273,6 +329,41 @@ const products = [
     quantity: 0
   },
   {
+    name: "Salame",
+    description: "Feteado",
+    trademark: "Paladini",
+    type: "lacteos",
+    quantity: 0
+  },
+  {
+    name: "Jamon",
+    description: "Feteado",
+    trademark: "Paladini",
+    type: "lacteos",
+    quantity: 0
+  },
+  {
+    name: "Queso",
+    description: "Feteado",
+    trademark: "Paladini",
+    type: "lacteos",
+    quantity: 0
+  },
+  {
+    name: "Queso fresco P",
+    description: "Trozo",
+    trademark: "Punta del agua",
+    type: "lacteos",
+    quantity: 0
+  },
+  {
+    name: "Queso fresco C",
+    description: "Cremon",
+    trademark: "La serenisima",
+    type: "lacteos",
+    quantity: 0
+  },
+  {
     name: "Aperitivo",
     description: "Gancia Americano",
     trademark: "Gancia",
@@ -311,6 +402,20 @@ const products = [
     name: "Pan Hamburgesa",
     description: "Artesano",
     trademark: "Bimbo",
+    type: "panaderia",
+    quantity: 0
+  },
+  {
+    name: "Pan Blanco",
+    description: "Artesano",
+    trademark: "Bimbo",
+    type: "panaderia",
+    quantity: 0
+  },
+  {
+    name: "Pan Blanco",
+    description: "Lacteado",
+    trademark: "Fargo",
     type: "panaderia",
     quantity: 0
   },
